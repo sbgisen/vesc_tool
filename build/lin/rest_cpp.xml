@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<VisualStates>
+  <global_namespace>
+    <functions></functions>
+    <variables></variables>
+  </global_namespace>
+  <libraries/>
+  <state id="0" initial="True">
+    <posx>0</posx>
+    <posy>0</posy>
+    <name>root</name>
+    <code></code>
+    <timestep>100</timestep>
+    <namespace>
+      <functions></functions>
+      <variables></variables>
+    </namespace>
+    <state id="1" initial="True">
+      <posx>829.0</posx>
+      <posy>984.0</posy>
+      <name>state1</name>
+      <code></code>
+      <timestep>100</timestep>
+      <namespace>
+        <functions></functions>
+        <variables></variables>
+      </namespace>
+      <transition id="1">
+        <type>0</type>
+        <time>0</time>
+        <posx>857.0</posx>
+        <posy>959.5</posy>
+        <name>transition 1</name>
+        <originid>1</originid>
+        <destinationid>2</destinationid>
+        <code></code>
+      </transition>
+    </state>
+    <state id="2" initial="False">
+      <posx>885.0</posx>
+      <posy>935.0</posy>
+      <name>state2</name>
+      <code></code>
+      <timestep>100</timestep>
+      <namespace>
+        <functions></functions>
+        <variables></variables>
+      </namespace>
+      <transition id="2">
+        <type>0</type>
+        <time>0</time>
+        <posx>921.0</posx>
+        <posy>921.0</posy>
+        <name>transition 2</name>
+        <originid>2</originid>
+        <destinationid>3</destinationid>
+        <code></code>
+      </transition>
+    </state>
+    <state id="3" initial="False">
+      <posx>957.0</posx>
+      <posy>907.0</posy>
+      <name>state3</name>
+      <code></code>
+      <timestep>100</timestep>
+      <namespace>
+        <functions></functions>
+        <variables></variables>
+      </namespace>
+      <transition id="3">
+        <type>0</type>
+        <time>0</time>
+        <posx>988.0</posx>
+        <posy>916.5</posy>
+        <name>transition 3</name>
+        <originid>3</originid>
+        <destinationid>4</destinationid>
+        <code></code>
+      </transition>
+    </state>
+    <state id="4" initial="False">
+      <posx>1019.0</posx>
+      <posy>926.0</posy>
+      <name>state4</name>
+      <code></code>
+      <timestep>100</timestep>
+      <namespace>
+        <functions></functions>
+        <variables></variables>
+      </namespace>
+      <transition id="5">
+        <type>0</type>
+        <time>0</time>
+        <posx>1007.5</posx>
+        <posy>960.0</posy>
+        <name>transition 5</name>
+        <originid>4</originid>
+        <destinationid>5</destinationid>
+        <code></code>
+      </transition>
+    </state>
+    <state id="5" initial="False">
+      <posx>996.0</posx>
+      <posy>994.0</posy>
+      <name>state5</name>
+      <code></code>
+      <timestep>100</timestep>
+      <namespace>
+        <functions></functions>
+        <variables></variables>
+      </namespace>
+      <transition id="6">
+        <type>0</type>
+        <time>0</time>
+        <posx>912.5</posx>
+        <posy>989.0</posy>
+        <name>transition 6</name>
+        <originid>5</originid>
+        <destinationid>1</destinationid>
+        <code></code>
+      </transition>
+    </state>
+  </state>
+</VisualStates>
