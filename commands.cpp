@@ -1301,7 +1301,7 @@ void Commands::setPos(double pos)
 {
     VByteArray vb;
     vb.vbAppendInt8(COMM_SET_POS);
-    vb.vbAppendDouble32(pos, 1e6);
+    vb.vbAppendDouble32(pos, 1e5);
     emitData(vb);
 }
 
